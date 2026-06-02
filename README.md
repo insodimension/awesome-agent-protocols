@@ -4,8 +4,6 @@
 
 🔌 wire protocol · 📐 spec / standard · 📄 format / convention · ⚠️ deprecated or merged
 
-**"ACP" means four different things.** Agent Client Protocol (Zed), Agent Communication Protocol (IBM, merged into A2A), Agent Connect Protocol (AGNTCY), Agentic Commerce Protocol (OpenAI + Stripe). Each listed under its own section.
-
 ## Contents
 
 - [Foundations](#foundations)
