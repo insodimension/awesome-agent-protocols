@@ -121,6 +121,7 @@ _How agents pay — authorization, checkout, stablecoins._
 _Files, not messages. Often called "protocols" — they're not._
 
 - [AGENTS.md](https://agents.md) 📄 - Project-specific instructions for coding agents. 60k+ repos. Agentic AI Foundation (Linux Foundation). `format/convention`
+- [GEMINI.md](https://google-gemini.github.io/gemini-cli/docs/cli/gemini-md.html) 📄 - Google. Gemini CLI's hierarchical instruction files — global + project + component context merged into every prompt, with `@file` imports. `format/convention`
 - [Agent Skills (SKILL.md)](https://agentskills.io) 📄 - Anthropic. Reusable agent capability as YAML frontmatter + instructions + optional scripts. `format/convention`
 - [llms.txt](https://llmstxt.org) 📄 - Markdown at site root listing LLM-readable content. Fetched by coding agents, not yet honored by major crawlers. `format/convention`
 - [ai.txt](https://site.spawning.ai/spawning-ai-txt) 📄 - Usage permissions for AI (no-training, no-inference, allow-RAG). Sits next to `robots.txt`. `format/convention`
