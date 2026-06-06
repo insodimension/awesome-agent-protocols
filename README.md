@@ -94,6 +94,7 @@ _How agents are named, found, and trusted._
 - [AGNTCY Directory](https://docs.agntcy.org/dir/overview/) 🔌 - Cisco. Distributed, content-addressed registry. Signed OASF records as OCI artifacts over libp2p DHT. `protocol`
 - [OASF](https://docs.agntcy.org/oasf/overview/) 📐 - AGNTCY. OCI-based schema describing agent attributes, skills, capabilities. `spec/standard`
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) 📐 - On-chain agent identity, reputation, and validation via three Ethereum registry contracts. `spec/standard`
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) 🔌 - Solana-native x402 MCP for agent trust scoring and identity verification. On-chain reputation scoring via HTTP 402 + USDC micropayments; signed `twzrd.receipt.v5` trust tokens for verifiable agent identity. `tool/service`
 - [SPIFFE / SPIRE](https://spiffe.io) 📐 - CNCF. Short-lived cryptographic workload identities, no secrets at rest. Increasingly used for agent runtime identity. `spec/standard`
 - [AgentDNS](https://www.ietf.org/archive/id/draft-liang-agentdns-00.html) 📐 ⚠️ - Expired IETF draft. DNS-inspired naming + semantic discovery. Small reference impl. `spec/standard`
 - [DNS-AID](https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/) 📐 - IETF DNSOP draft. Publish/discover/verify agents through standard DNS records. Linux Foundation ref stack. `spec/standard`
