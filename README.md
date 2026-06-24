@@ -146,6 +146,7 @@ Wire-message examples in [`examples/`](examples/): MCP tool calls, A2A Agent Car
 
 ## Related
 
+- [MetaVision AI Platform](https://metavision.click) - Web3 CVE Oracle (355k+ NVD vulnerabilities, $0.50 USDC), DeFi arbitrage signals on Base ($0.10 USDC), wallet fraud + rug pull detection. 18 MCP tools. x402 v2. ([Agent Card](https://metavision.click/.well-known/agent.json))
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme)
 - [Awesome A2A](https://github.com/ai-boost/awesome-a2a#readme)
 - [Awesome Agentic Payments](https://github.com/bitrefill/awesome-agentic-payments#readme)
