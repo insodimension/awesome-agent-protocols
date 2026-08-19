@@ -116,6 +116,7 @@ _How agents pay — authorization, checkout, stablecoins._
 - [Agentic Commerce Protocol (ACP)](https://www.agenticcommerce.dev) 🔌 - OpenAI + Stripe. Agent-led checkout with Shared Payment Tokens. Powers Instant Checkout in ChatGPT. `protocol`
 - [Universal Commerce Protocol (UCP)](https://ucp.dev) 📐 - Google + Shopify (Etsy, Target, Walmart, Wayfair). Product discovery through checkout. `spec/standard`
 - [Cloudflare Pay Per Crawl](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/) 🔌 - HTTP 402 micropayments for AI crawlers, per request. `protocol`
+- [Animica Paid Crawl](https://animica.dev/.well-known/paid-crawl) 🔌 - Self-hostable HTTP 402 per-page pricing for AI crawlers, declaring terms in robots.txt and enforcing them through a fail-open decision endpoint, with post-quantum ML-DSA-65 licences a crawler can present as proof of what it licensed. `protocol`
 
 ## Formats and conventions
 
