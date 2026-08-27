@@ -84,6 +84,7 @@ _How an agent is invoked as a service — runs, threads, state._
 
 - [LangChain Agent Protocol](https://github.com/langchain-ai/agent-protocol) 📐 - Framework-agnostic REST/OpenAPI. Agents, Runs, Threads, Store endpoints. `spec/standard`
 - [Agent Connect Protocol (ACP)](https://spec.acp.agntcy.org/) 📐 - AGNTCY / Cisco. OpenAPI spec for remote agent invocation, any framework. `spec/standard`
+- [Unified Harness Protocol (UHP)](https://github.com/HarnessRouter/harnessrouter/tree/main/protocol) 📐 - HarnessRouter. Versioned HTTP spec for applications invoking agent harnesses: tasks, sessions, streaming, files, cancellation. `spec/standard`
 
 ## Identity and discovery
 
