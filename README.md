@@ -98,6 +98,9 @@ _How agents are named, found, and trusted._
 - [SPIFFE / SPIRE](https://spiffe.io) 📐 - CNCF. Short-lived cryptographic workload identities, no secrets at rest. Increasingly used for agent runtime identity. `spec/standard`
 - [AgentDNS](https://www.ietf.org/archive/id/draft-liang-agentdns-00.html) 📐 ⚠️ - Expired IETF draft. DNS-inspired naming + semantic discovery. Small reference impl. `spec/standard`
 - [DNS-AID](https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/) 📐 - IETF DNSOP draft. Publish/discover/verify agents through standard DNS records. Linux Foundation ref stack. `spec/standard`
+- [AffixIO](https://www.npmjs.com/package/affixio) 🔌 - Agentic Pay Kit with x402BeforePay host-side action attestation before pay (signed yes/no on host, not person KYC), agenticPay, mcpToolGate, and KYA createAgentTrust. ([GitHub](https://github.com/AffixIO/SDK)) ([docs](https://www.affix-io.com/agent-trust/)) `tool/service`
+
+
 
 ## Agentic web
 
