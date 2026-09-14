@@ -106,6 +106,7 @@ _Agents on the web — page tools, crawl permissions._
 - [WebMCP](https://webmcp.link) 🔌 - W3C (Google, Microsoft). `navigator.modelContext` browser API exposing in-page tools to agents. `protocol`
 - [Web-Agent Protocol (WAP)](https://www.otatech.ai/wap) 📄 - Record browser interactions via extension, replay them for autonomous web agents. `format/convention`
 - [TDMRep](https://www.w3.org/community/tdmrep/) 📐 - W3C. Machine-readable mining permissions in HTTP headers, `.well-known`, or HTML. `spec/standard`
+- [HostDeFi](https://hostdefi.com/) - DEX front-end with a live A2A agent card (/.well-known/agent.json): agents can scan tokens (A+–F safety grades), price swaps and pay per call in USDC via x402.
 
 ## Payments and commerce
 
