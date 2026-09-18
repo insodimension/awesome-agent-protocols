@@ -36,11 +36,11 @@ description: Greet the user and offer help.
 Greet the user and offer help.
 ```
 
-A supporting client loads the plugin by reading `plugin.json` and discovering `skills/greet/SKILL.md`.
+A client that supports skills can load the plugin by reading `plugin.json` and discovering `skills/greet/SKILL.md`. How the client exposes the skill to users or models is outside the Agent Plugins specification.
 
 ## Key points
 
 - Packaging only: marketplaces, installation, permissions, sandboxing and trust stay with each client.
 - Interoperability floor, not identical behavior — UX and execution policy are client-defined.
-- Supported at 1.0 launch: ChatGPT and Codex apps, Cursor, GitHub Copilot (CLI, SDK, app), VS Code, Kiro; Google joined as Core Maintainer.
+- Supported at 1.0 launch: ChatGPT and Codex apps, Cursor, GitHub Copilot (CLI, SDK, app), VS Code, Kiro; Google has announced it is joining as Core Maintainer (not yet reflected in MAINTAINERS.md).
 - Spec stewardship is vendor-neutral (Amazon, Cursor, Microsoft, OpenAI, Vercel on the TSC); 1.1.0 is a working draft.
