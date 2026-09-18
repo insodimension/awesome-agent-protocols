@@ -10,3 +10,4 @@ Verbatim protocol examples showing the actual wire messages, file formats, and d
 | [LangChain Agent Protocol](langchain-agent-protocol.md) | LangChain Agent Protocol | Agent serving and runtime |
 | [x402 Payment](x402-payment.md) | x402 | Payments and commerce |
 | [AP2 Mandate](ap2-mandate.md) | Agent Payments Protocol | Payments and commerce |
+| [Agent Plugins](agent-plugins.md) | Agent Plugins | Formats and conventions |
