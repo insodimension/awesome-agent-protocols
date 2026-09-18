@@ -84,6 +84,7 @@ _How an agent is invoked as a service — runs, threads, state._
 
 - [LangChain Agent Protocol](https://github.com/langchain-ai/agent-protocol) 📐 - Framework-agnostic REST/OpenAPI. Agents, Runs, Threads, Store endpoints. `spec/standard`
 - [Agent Connect Protocol (ACP)](https://spec.acp.agntcy.org/) 📐 - AGNTCY / Cisco. OpenAPI spec for remote agent invocation, any framework. `spec/standard`
+- [Unified Harness Protocol (UHP)](https://github.com/HarnessRouter/harnessrouter/tree/main/protocol) 📐 - HarnessRouter. Versioned HTTP spec for applications invoking agent harnesses: tasks, sessions, streaming, files, cancellation. `spec/standard`
 
 ## Identity and discovery
 
@@ -113,10 +114,12 @@ _How agents pay — authorization, checkout, stablecoins._
 
 - [AP2](https://ap2-protocol.org) 🔌 - Google + 60 partners. A2A extension. Cryptographically signed Mandates for agent-led payments, cards + stablecoins. `protocol`
 - [x402](https://github.com/x402-foundation/x402) 🔌 - Coinbase / Linux Foundation. HTTP 402 with stablecoin payment in a header. Pay-per-call APIs. `protocol`
+  - [AgentServices](https://agentservices.to) - Paid data APIs over x402 pay-per-call: 54 services, 41 paid endpoints, 37 MCP tools. [Discovery](https://agentservices.to/.well-known/x402) | [OpenAPI](https://api.agentservices.to/openapi.json) `framework`
   - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit: host-side action attestation before x402 pay plus MCP tool gating and agent trust issuance. [GitHub](https://github.com/AffixIO/SDK) | [Docs](https://www.affix-io.com/agent-trust/) `framework`
 - [Agentic Commerce Protocol (ACP)](https://www.agenticcommerce.dev) 🔌 - OpenAI + Stripe. Agent-led checkout with Shared Payment Tokens. Powers Instant Checkout in ChatGPT. `protocol`
 - [Universal Commerce Protocol (UCP)](https://ucp.dev) 📐 - Google + Shopify (Etsy, Target, Walmart, Wayfair). Product discovery through checkout. `spec/standard`
 - [Cloudflare Pay Per Crawl](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/) 🔌 - HTTP 402 micropayments for AI crawlers, per request. `protocol`
+- [Animica Paid Crawl](https://animica.dev/.well-known/paid-crawl) 🔌 - Self-hostable HTTP 402 per-page pricing for AI crawlers, declaring terms in robots.txt and enforcing them through a fail-open decision endpoint, with post-quantum ML-DSA-65 licences a crawler can present as proof of what it licensed. `protocol`
 
 ## Formats and conventions
 
