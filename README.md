@@ -116,6 +116,7 @@ _How agents pay — authorization, checkout, stablecoins._
 - [x402](https://github.com/x402-foundation/x402) 🔌 - Coinbase / Linux Foundation. HTTP 402 with stablecoin payment in a header. Pay-per-call APIs. `protocol`
   - [AgentServices](https://agentservices.to) - Paid data APIs over x402 pay-per-call: 54 services, 41 paid endpoints, 37 MCP tools. [Discovery](https://agentservices.to/.well-known/x402) | [OpenAPI](https://api.agentservices.to/openapi.json) `framework`
   - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit: host-side action attestation before x402 pay plus MCP tool gating and agent trust issuance. [GitHub](https://github.com/AffixIO/SDK) | [Docs](https://www.affix-io.com/agent-trust/) `framework`
+  - [HostDeFi](https://hostdefi.com/) - Token-safety scanner API with A2A agent card, MCP endpoint and x402 per-call pricing. [Agent Card](https://hostdefi.com/.well-known/agent.json) | [Docs](https://hostdefi.com/docs/api/) `framework`
 - [Agentic Commerce Protocol (ACP)](https://www.agenticcommerce.dev) 🔌 - OpenAI + Stripe. Agent-led checkout with Shared Payment Tokens. Powers Instant Checkout in ChatGPT. `protocol`
 - [Universal Commerce Protocol (UCP)](https://ucp.dev) 📐 - Google + Shopify (Etsy, Target, Walmart, Wayfair). Product discovery through checkout. `spec/standard`
 - [Cloudflare Pay Per Crawl](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/) 🔌 - HTTP 402 micropayments for AI crawlers, per request. `protocol`
