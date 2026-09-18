@@ -32,14 +32,14 @@ _The editor-tooling protocols that predate agents. Same idea — decouple client
 
 _How an agent calls tools, reads data, and gets context._
 
-- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) 🔌 - Anthropic. JSON-RPC 2.0 over stdio or Streamable HTTP. Connects LLM hosts to tools, resources, and prompts. Now under the Linux Foundation. `protocol`
+- [Model Context Protocol (MCP)](https://modelcontextprotocol.io) 🔌 - Anthropic. JSON-RPC 2.0 over stdio or Streamable HTTP. Connects LLM hosts to tools, resources, and prompts. Now under the Linux Foundation. 2026-07-28 revision goes stateless with no initialize handshake. `protocol`
   - [Tools](https://modelcontextprotocol.io/specification/2025-11-25/server/tools) 🔌 - `tools/list` + `tools/call`. JSON-Schema-typed callable functions. `protocol`
   - [Resources](https://modelcontextprotocol.io/specification/2025-06-18/server/resources) 🔌 - URI-addressed readable context (files, rows, blobs) with subscriptions. `protocol`
   - [Prompts](https://modelcontextprotocol.io/specification/2025-06-18/server/prompts) 🔌 - Server-defined parameterized prompt templates, surfaced as slash commands. `protocol`
-  - [Sampling](https://modelcontextprotocol.io/specification/2025-11-25/client/sampling) 🔌 - Server asks the client for an LLM completion. Supports tool use + `toolChoice`. `protocol`
+  - [Sampling](https://modelcontextprotocol.io/specification/2025-11-25/client/sampling) 🔌 - Server asks the client for an LLM completion. Supports tool use + `toolChoice`. Deprecated in 2026-07-28. `protocol`
   - [Elicitation](https://modelcontextprotocol.io/specification/draft/client/elicitation) 🔌 - Server pauses to ask the user for input (forms) or hand off to the browser (OAuth, payments). `protocol`
-  - [Roots](https://modelcontextprotocol.io/specification/2025-11-25/client/roots) 🔌 - Client declares which `file://` paths servers may touch. `protocol`
-  - [Apps (SEP-1865)](https://github.com/modelcontextprotocol/ext-apps) 🔌 - Servers ship interactive HTML UI as `ui://` resources, rendered in a sandboxed iframe. `protocol`
+  - [Roots](https://modelcontextprotocol.io/specification/2025-11-25/client/roots) 🔌 - Client declares which `file://` paths servers may touch. Deprecated in 2026-07-28. `protocol`
+  - [Apps (SEP-1865)](https://github.com/modelcontextprotocol/ext-apps) 🔌 - Servers ship interactive HTML UI as `ui://` resources, rendered in a sandboxed iframe. Live as the first official MCP extension. `protocol`
   - [Registry](https://github.com/modelcontextprotocol/registry) 📐 - Public server catalog + REST API. Standardized `server.json` publish format. `spec/standard`
 - [OpenAI Apps SDK](https://developers.openai.com/apps-sdk) 🔌 - ChatGPT app = server logic + embedded widget. Converging with the MCP Apps extension. `protocol`
 - [agents.json](https://github.com/wild-card-ai/agents-json) 📐 - Wildcard AI. Layered on OpenAPI — adds flows, links, and auth so agents can drive REST APIs. `spec/standard`
