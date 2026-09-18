@@ -106,7 +106,6 @@ _Agents on the web — page tools, crawl permissions._
 - [WebMCP](https://webmcp.link) 🔌 - W3C (Google, Microsoft). `navigator.modelContext` browser API exposing in-page tools to agents. `protocol`
 - [Web-Agent Protocol (WAP)](https://www.otatech.ai/wap) 📄 - Record browser interactions via extension, replay them for autonomous web agents. `format/convention`
 - [TDMRep](https://www.w3.org/community/tdmrep/) 📐 - W3C. Machine-readable mining permissions in HTTP headers, `.well-known`, or HTML. `spec/standard`
-- [HostDeFi](https://hostdefi.com/) - DEX front-end with a live A2A agent card (/.well-known/agent.json): agents can scan tokens (A+–F safety grades), price swaps and pay per call in USDC via x402.
 
 ## Payments and commerce
 
@@ -114,6 +113,7 @@ _How agents pay — authorization, checkout, stablecoins._
 
 - [AP2](https://ap2-protocol.org) 🔌 - Google + 60 partners. A2A extension. Cryptographically signed Mandates for agent-led payments, cards + stablecoins. `protocol`
 - [x402](https://github.com/x402-foundation/x402) 🔌 - Coinbase / Linux Foundation. HTTP 402 with stablecoin payment in a header. Pay-per-call APIs. `protocol`
+  - [HostDeFi](https://hostdefi.com/) - Token-safety scanner API with A2A agent card, MCP endpoint and x402 per-call pricing. [Agent Card](https://hostdefi.com/.well-known/agent.json) | [Docs](https://hostdefi.com/docs/api/) `framework`
 - [Agentic Commerce Protocol (ACP)](https://www.agenticcommerce.dev) 🔌 - OpenAI + Stripe. Agent-led checkout with Shared Payment Tokens. Powers Instant Checkout in ChatGPT. `protocol`
 - [Universal Commerce Protocol (UCP)](https://ucp.dev) 📐 - Google + Shopify (Etsy, Target, Walmart, Wayfair). Product discovery through checkout. `spec/standard`
 - [Cloudflare Pay Per Crawl](https://developers.cloudflare.com/ai-crawl-control/features/pay-per-crawl/what-is-pay-per-crawl/) 🔌 - HTTP 402 micropayments for AI crawlers, per request. `protocol`
