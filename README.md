@@ -150,6 +150,9 @@ _Who stewards the open agent stack._
 
 Wire-message examples in [`examples/`](examples/): MCP tool calls, A2A Agent Cards, agents.json flows, LangChain Runs/Threads, x402 payments, AP2 mandates.
 
+- [Veriton HTML→JSON](https://veriton-html-json-api.netlify.app) - Live x402 (Base USDC) + MCP service: HTML/URL → structured JSON. Free demo + paid routes. `example`
+
+
 ## Related
 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers#readme)
