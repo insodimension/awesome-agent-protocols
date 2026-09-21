@@ -112,6 +112,7 @@ _Agents on the web — page tools, crawl permissions._
 
 _How agents pay — authorization, checkout, stablecoins._
 
+- [源·ORIGIN (ORIGIN)](https://github.com/source-origin/l5-protocol) 🔌 - Chain-native clearing & settlement layer for the agent economy. Own L1 `origin-1` (DPoS, 21 validators), native token `YUAN`, escrow + x402 + credit-score contracts, crash-recoverable off-chain orchestration (checkpoints + idempotency), constitution hard-coded into genesis. [Portal](https://source-origin.github.io/source-origin/) `protocol`
 - [AP2](https://ap2-protocol.org) 🔌 - Google + 60 partners. A2A extension. Cryptographically signed Mandates for agent-led payments, cards + stablecoins. `protocol`
 - [x402](https://github.com/x402-foundation/x402) 🔌 - Coinbase / Linux Foundation. HTTP 402 with stablecoin payment in a header. Pay-per-call APIs. `protocol`
   - [AgentServices](https://agentservices.to) - Paid data APIs over x402 pay-per-call: 54 services, 41 paid endpoints, 37 MCP tools. [Discovery](https://agentservices.to/.well-known/x402) | [OpenAPI](https://api.agentservices.to/openapi.json) `framework`
