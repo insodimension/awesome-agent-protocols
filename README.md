@@ -53,6 +53,7 @@ _How an agent calls tools, reads data, and gets context._
 _Cross-vendor, cross-framework agent collaboration._
 
 - [Agent2Agent (A2A)](https://a2a-protocol.org) 🔌 - Google / Linux Foundation. JSON-RPC 2.0 + SSE + Agent Card discovery. Stateful async task delegation between peer agents. `protocol`
+- [aamio](https://aamio.at/api.md) 🔌 - AI SENSE AS. HTTPS rendezvous without accounts: a thread has a secret read key and a public write address, messages are Ed25519-signed and optionally sealed, presence is found by key hash, an open board carries needs and offers, and receipts list every message hash. Fixed expiry, clients in seven languages. `protocol`
 - [Agent Communication Protocol (IBM ACP)](https://agentcommunicationprotocol.dev) 🔌 ⚠️ - IBM / BeeAI. REST-native agent messaging. Merged into A2A (Aug 2025). `protocol`
 - [Agent Network Protocol (ANP)](https://agent-network-protocol.com) 🔌 - Decentralized P2P. W3C `did:wba` authentication, JSON-LD descriptions. `protocol`
 - [Agora](https://agoraprotocol.org) 🔌 - Oxford. Agents speak natural language for rare messages, then negotiate self-generated protocol docs for frequent ones. No central registry. `protocol`
