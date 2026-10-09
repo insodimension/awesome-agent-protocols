@@ -99,6 +99,7 @@ _How agents are named, found, and trusted._
 - [SPIFFE / SPIRE](https://spiffe.io) 📐 - CNCF. Short-lived cryptographic workload identities, no secrets at rest. Increasingly used for agent runtime identity. `spec/standard`
 - [AgentDNS](https://www.ietf.org/archive/id/draft-liang-agentdns-00.html) 📐 ⚠️ - Expired IETF draft. DNS-inspired naming + semantic discovery. Small reference impl. `spec/standard`
 - [DNS-AID](https://datatracker.ietf.org/doc/draft-mozleywilliams-dnsop-dnsaid/) 📐 - IETF DNSOP draft. Publish/discover/verify agents through standard DNS records. Linux Foundation ref stack. `spec/standard`
+- [mandarincow wake](https://mandarincow.com/.well-known/wake.json) 📐 - Private capsule, shared store, bounty tray for the origin owner. `spec/standard`
 
 ## Agentic web
 
