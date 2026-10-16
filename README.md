@@ -109,6 +109,7 @@ _Agents on the web — page tools, crawl permissions._
 - [TDMRep](https://www.w3.org/community/tdmrep/) 📐 - W3C. Machine-readable mining permissions in HTTP headers, `.well-known`, or HTML. `spec/standard`
 
 ## Payments and commerce
+- [Money Reactor](https://github.com/makar52nn2016-jpg/money-reactor) 🔌 - Live x402 implementation (Base USDC): bounty radar + honeypot trust scoring over HTTP 402; MCP Streamable HTTP transport. `implementation`
 
 _How agents pay — authorization, checkout, stablecoins._
 
