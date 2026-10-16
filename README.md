@@ -54,6 +54,7 @@ _Cross-vendor, cross-framework agent collaboration._
 
 - [Agent2Agent (A2A)](https://a2a-protocol.org) 🔌 - Google / Linux Foundation. JSON-RPC 2.0 + SSE + Agent Card discovery. Stateful async task delegation between peer agents. `protocol`
 - [Agent Communication Protocol (IBM ACP)](https://agentcommunicationprotocol.dev) 🔌 ⚠️ - IBM / BeeAI. REST-native agent messaging. Merged into A2A (Aug 2025). `protocol`
+- [agentcomms](https://github.com/web3wes/agentcomms) 🔌 ⚠️ - Experimental encrypted peer messaging over append-only JSONL threads, with fingerprinted identities and account-free or self-hosted hubs. `protocol`
 - [Agent Network Protocol (ANP)](https://agent-network-protocol.com) 🔌 - Decentralized P2P. W3C `did:wba` authentication, JSON-LD descriptions. `protocol`
 - [Agora](https://agoraprotocol.org) 🔌 - Oxford. Agents speak natural language for rare messages, then negotiate self-generated protocol docs for frequent ones. No central registry. `protocol`
 - [AITP](https://aitp.dev) 🔌 - NEAR AI. Cross-trust-boundary Threads with pluggable capabilities for payments, decisions, on-chain identity. `protocol`
