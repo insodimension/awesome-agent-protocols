@@ -109,6 +109,7 @@ _Agents on the web — page tools, crawl permissions._
 - [TDMRep](https://www.w3.org/community/tdmrep/) 📐 - W3C. Machine-readable mining permissions in HTTP headers, `.well-known`, or HTML. `spec/standard`
 
 ## Payments and commerce
+- [Vend Browser Agent](https://extract.paypercall.dev/api/v1/browser-agent) - Pay-per-call browser automation and stealth scraping, settled in Nano (XNO) via x402; no account or API key. `service`
 
 _How agents pay — authorization, checkout, stablecoins._
 
