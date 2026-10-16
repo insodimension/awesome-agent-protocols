@@ -131,6 +131,7 @@ _Files, not messages. Often called "protocols" — they're not._
 - [Agent Skills (SKILL.md)](https://agentskills.io) 📄 - Anthropic. Reusable agent capability as YAML frontmatter + instructions + optional scripts. `format/convention`
 - [llms.txt](https://llmstxt.org) 📄 - Markdown at site root listing LLM-readable content. Fetched by coding agents, not yet honored by major crawlers. `format/convention`
 - [ai.txt](https://site.spawning.ai/spawning-ai-txt) 📄 - Usage permissions for AI (no-training, no-inference, allow-RAG). Sits next to `robots.txt`. `format/convention`
+- [agents.txt](https://github.com/dekimuhq/agents-txt) 📄 - Site-level action policy: a text file plus a JSON schema declaring which actions autonomous agents may attempt, under what conditions, and what receipt results. `format/convention`
 - [JSONL transcripts](https://jsonlines.org) 📄 - One JSON object per line. How Claude Code, Codex, and others persist sessions. A log format, not a wire protocol. `format/convention`
 
 ## Governance
