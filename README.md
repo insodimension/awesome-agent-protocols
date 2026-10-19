@@ -114,6 +114,7 @@ _How agents pay — authorization, checkout, stablecoins._
 
 - [AP2](https://ap2-protocol.org) 🔌 - Google + 60 partners. A2A extension. Cryptographically signed Mandates for agent-led payments, cards + stablecoins. `protocol`
 - [x402](https://github.com/x402-foundation/x402) 🔌 - Coinbase / Linux Foundation. HTTP 402 with stablecoin payment in a header. Pay-per-call APIs. `protocol`
+  - [x402-deno](https://github.com/aronaplana-os/x402-deno) - Drop-in x402 v2 middleware for Deno and Deno Deploy. Server-side canonical pricing, Deno KV compare-and-set nonce reservation before inference, fail-closed settlement, zero dependencies. [GitHub](https://github.com/aronaplana-os/x402-deno) `framework`
   - [AgentServices](https://agentservices.to) - Paid data APIs over x402 pay-per-call: 54 services, 41 paid endpoints, 37 MCP tools. [Discovery](https://agentservices.to/.well-known/x402) | [OpenAPI](https://api.agentservices.to/openapi.json) `framework`
   - [AffixIO](https://www.npmjs.com/package/affixio) - Agentic Pay Kit: host-side action attestation before x402 pay plus MCP tool gating and agent trust issuance. [GitHub](https://github.com/AffixIO/SDK) | [Docs](https://www.affix-io.com/agent-trust/) `framework`
   - [HostDeFi](https://hostdefi.com/) - Token-safety scanner API with A2A agent card, MCP endpoint and x402 per-call pricing. [Agent Card](https://hostdefi.com/.well-known/agent.json) | [Docs](https://hostdefi.com/docs/api/) `framework`
