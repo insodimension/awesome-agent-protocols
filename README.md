@@ -90,7 +90,7 @@ _How an agent is invoked as a service — runs, threads, state._
 
 _How agents are named, found, and trusted._
 
-- [Agent Name Service (ANS)](https://genai.owasp.org/resource/agent-name-service-ans-for-secure-al-agent-discovery-v1-0/) 📐 - OWASP. DNS-inspired discovery with PKI identity. Protocol-agnostic adapter over A2A, MCP, ACP. `spec/standard`
+- [Agent Name Service (ANS)](https://datatracker.ietf.org/doc/draft-narajala-courtney-ansv2/) 📐 - IETF draft from OWASP, GoDaddy and Cisco. Anchors agent identity to verified domain control with version-bound certificates and a SCITT transparency log; protocol-agnostic over A2A, MCP, ACP. Open-source registry, log, verifier and SDKs at [agentnameservice](https://github.com/agentnameservice). `spec/standard`
 - [Project NANDA](https://github.com/projnanda) 📐 - MIT Media Lab. Federated "DNS for agents" — human-friendly handles → signed pointers → verifiable AgentFacts. `spec/standard`
 - [AGNTCY Directory](https://docs.agntcy.org/dir/overview/) 🔌 - Cisco. Distributed, content-addressed registry. Signed OASF records as OCI artifacts over libp2p DHT. `protocol`
 - [OASF](https://docs.agntcy.org/oasf/overview/) 📐 - AGNTCY. OCI-based schema describing agent attributes, skills, capabilities. `spec/standard`
